@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - JAY HIRAJI BABA SHAIKSHNIK V BHUUDDESHIY SANSTHA</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <h2>JAY HIRAJI BABA</h2>
+                    <p>Educational Trust</p>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="education.html" class="nav-link">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="trustees.html" class="nav-link">Trustees</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="donate.html" class="nav-link">Donate</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link active">Contact</a>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>Get in touch with us for admissions, donations, or any inquiries</p>
+        </div>
+    </section>
+
+    <!-- Contact Information -->
+    <section class="contact-info">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Our Location</h3>
+                    <p>JAY HIRAJI BABA SHAIKSHNIK V BHUUDDESHIY SANSTHA</p>
+                    <p>Village: [Village Name]</p>
+                    <p>Taluka: [Taluka Name]</p>
+                    <p>District: [District Name]</p>
+                    <p>Maharashtra, India - [PIN Code]</p>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <h3>Phone Numbers</h3>
+                    <p><strong>Office:</strong> +91 XXXXXXXXXX</p>
+                    <p><strong>Admissions:</strong> +91 XXXXXXXXXX</p>
+                    <p><strong>Emergency:</strong> +91 XXXXXXXXXX</p>
+                    <p><strong>WhatsApp:</strong> +91 XXXXXXXXXX</p>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Email Address</h3>
+                    <p><strong>General Inquiries:</strong></p>
+                    <p>info@jayhirajibaba.org</p>
+                    <p><strong>Admissions:</strong></p>
+                    <p>admissions@jayhirajibaba.org</p>
+                    <p><strong>Donations:</strong></p>
+                    <p>donations@jayhirajibaba.org</p>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Office Hours</h3>
+                    <p><strong>Monday - Friday:</strong></p>
+                    <p>8:00 AM - 6:00 PM</p>
+                    <p><strong>Saturday:</strong></p>
+                    <p>8:00 AM - 2:00 PM</p>
+                    <p><strong>Sunday:</strong></p>
+                    <p>Closed</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="contact-form-section">
+        <div class="container">
+            <div class="contact-form-container">
+                <div class="form-info">
+                    <h2>Send Us a Message</h2>
+                    <p>We'd love to hear from you! Please fill out the form below and we'll get back to you as soon as possible.</p>
+                    
+                    <div class="form-features">
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Quick response within 24 hours</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Free consultation for admissions</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Confidential and secure communication</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Full Name *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject">Subject *</label>
+                        <select id="subject" name="subject" required>
+                            <option value="">Select a subject</option>
+                            <option value="admission">Admission Inquiry</option>
+                            <option value="donation">Donation</option>
+                            <option value="volunteer">Volunteer</option>
+                            <option value="partnership">Partnership</option>
+                            <option value="general">General Inquiry</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Message *</label>
+                        <textarea id="message" name="message" rows="5" required placeholder="Please describe your inquiry in detail..."></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Map -->
+    <section class="location-section">
+        <div class="container">
+            <h2 class="section-title">Find Us</h2>
+            <div class="location-content">
+                <div class="location-info">
+                    <h3>How to Reach Us</h3>
+                    <div class="directions">
+                        <div class="direction-item">
+                            <h4><i class="fas fa-car"></i> By Road</h4>
+                            <p>We are located [X] kilometers from [Nearest City]. Regular bus services are available from [Bus Stand Name].</p>
+                        </div>
+                        <div class="direction-item">
+                            <h4><i class="fas fa-train"></i> By Train</h4>
+                            <p>The nearest railway station is [Station Name], located [X] kilometers from our campus. Auto-rickshaws and taxis are available from the station.</p>
+                        </div>
+                        <div class="direction-item">
+                            <h4><i class="fas fa-plane"></i> By Air</h4>
+                            <p>The nearest airport is [Airport Name] in [City], approximately [X] kilometers away. We can arrange pickup services on request.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="map-placeholder">
+                    <div class="map-content">
+                        <i class="fas fa-map"></i>
+                        <h3>Interactive Map</h3>
+                        <p>Map will be embedded here showing our exact location</p>
+                        <button class="btn btn-secondary">View on Google Maps</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3>How can I apply for admission?</h3>
+                    <p>You can apply for admission by visiting our campus, calling our admission helpline, or filling out the contact form above. We'll guide you through the entire process.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Is education really free?</h3>
+                    <p>Yes, education is completely free for eligible students. We also provide books, uniforms, and other educational materials at no cost.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What documents are required for admission?</h3>
+                    <p>Required documents include birth certificate, income certificate, residence proof, and previous academic records. We'll provide a complete list during the application process.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>How can I support the trust?</h3>
+                    <p>You can support us through donations, volunteering, or spreading awareness about our mission. Contact us for more details on how you can contribute.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Do you provide transportation?</h3>
+                    <p>Yes, we provide free transportation facilities for students from nearby villages and communities.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What are the agricultural programs offered?</h3>
+                    <p>We offer a 4-year Bachelor of Science in Agriculture program covering modern farming techniques, sustainable agriculture, and practical training.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>JAY HIRAJI BABA SHAIKSHNIK V BHUUDDESHIY SANSTHA</h3>
+                    <p>Empowering communities through education and agricultural development.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="education.html">Education Programs</a></li>
+                        <li><a href="trustees.html">Our Trustees</a></li>
+                        <li><a href="donate.html">Donate</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Maharashtra, India</p>
+                    <p><i class="fas fa-phone"></i> +91 9404271439</p>
+                    <p><i class="fas fa-envelope"></i> dhramraj143padvi@gmail.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 JAY HIRAJI BABA SHAIKSHNIK V BHUUDDESHIY SANSTHA. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
